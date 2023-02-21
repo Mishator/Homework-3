@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
 
 
     }
@@ -72,5 +73,14 @@ public static void task6 () {
         System.out.println("Общий вес двух бойцов " + totalWheightBoxer + " кг");
         var differenceWheight = boxerWheight1 - boxerWheight2;
         System.out.println("Разница в весе между двумя бойцами " + differenceWheight + " кг");
+}
+public static void task7 () {
+        System.out.println("Задача 7");
+        var boxerWheight1 = 78.2;
+        var boxerWheight2 = 82.7;
+        var differenceWheight = boxerWheight2 - boxerWheight1;
+        System.out.println("Разница веса бойцов " + differenceWheight + " кг!");
+        var differenc = boxerWheight2 % boxerWheight1;
+        System.out.println("Разница веса спортсменов " + differenc + " кг!");
 }
 }
